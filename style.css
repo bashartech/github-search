@@ -95,3 +95,29 @@ input:focus {
     margin-bottom: 0.5rem;
     text-decoration: none;
 }
+
+@media (max-width: 500px) {
+    .main{
+        margin-left: 50px;
+    }
+.card{
+    width: 550px;
+}
+#search{
+    margin-left: 10px;
+    width: 350px;
+}
+}
+@media (max-width: 500px) {
+    .main{
+        margin-left: 100px;
+    }
+.card{
+    width: 550px;
+   
+}
+#search{
+    margin-left: 10px;
+    width: 350px;
+}
+}
